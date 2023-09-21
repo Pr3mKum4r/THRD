@@ -93,115 +93,61 @@ function App() {
           <p className="text-[#ffd8b1] silk-screen text-center p-2">
             SNEAK PEAK: THRD&apos;S EXCLUSIVE COLLECTION
           </p>
-          <div className="w-full h-60 bg-red-100 p-5 rounded-xl">
+          <div className="w-full h-64 bg-red-100 p-5 rounded-xl">
             {/* <img src="" alt="Slider here" /> */}
             <Slider {...mobileSettings}>
               <div className="p-2">
                 <div className="overflow-hidden card hover:rounded-xl">
                   <img
                     src={slider1}
-                    className="h-40 w-40 card-img rounded-xl"
+                    className="h-44 w-40 card-img rounded-xl"
                     alt=""
                   />
-                  <div className="textContent flex flex-col items-center justify-center">
-                    <p className="spline-font text-xs">Get Yours Now !</p>
-                    <a
-                      className="silk-screen mt-5 mx-0 md:mx-2 rounded-3xl md:rounded-[4em] py-2 md:p-2 px-2 text-xs bg-[#fca311]"
-                      href="http://shop.thrd.store/"
-                    >
-                      ENTER & SHOP
-                    </a>
-                  </div>
                 </div>
               </div>
               <div className="p-2">
                 <div className="overflow-hidden card hover:rounded-xl">
                   <img
                     src={slider2}
-                    className="h-40 w-40 card-img rounded-xl"
+                    className="h-44 w-40 card-img rounded-xl"
                     alt=""
                   />
-                  <div className="textContent flex flex-col items-center justify-center">
-                    <p className="spline-font text-xs">Get Yours Now !</p>
-                    <a
-                      className="silk-screen mt-5 mx-0 md:mx-2 rounded-3xl md:rounded-[4em] py-2 md:p-2 px-2 text-xs bg-[#fca311]"
-                      href="http://shop.thrd.store/"
-                    >
-                      ENTER & SHOP
-                    </a>
-                  </div>
                 </div>
               </div>
               <div className="p-2">
                 <div className="overflow-hidden card hover:rounded-xl">
                   <img
                     src={slider3}
-                    className="h-40 w-40 card-img rounded-xl"
+                    className="h-44 w-40 card-img rounded-xl"
                     alt=""
                   />
-                  <div className="textContent flex flex-col items-center justify-center">
-                    <p className="spline-font text-xs">Get Yours Now !</p>
-                    <a
-                      className="silk-screen mt-5 mx-0 md:mx-2 rounded-3xl md:rounded-[4em] py-2 md:p-2 px-2 text-xs bg-[#fca311]"
-                      href="http://shop.thrd.store/"
-                    >
-                      ENTER & SHOP
-                    </a>
-                  </div>
                 </div>
               </div>
               <div className="p-2">
                 <div className="overflow-hidden card hover:rounded-xl">
                   <img
                     src={slider4}
-                    className="h-40 w-40 card-img rounded-xl"
+                    className="h-44 w-40 card-img rounded-xl"
                     alt=""
                   />
-                  <div className="textContent flex flex-col items-center justify-center">
-                    <p className="spline-font text-xs">Get Yours Now !</p>
-                    <a
-                      className="silk-screen mt-5 mx-0 md:mx-2 rounded-3xl md:rounded-[4em] py-2 md:p-2 px-2 text-xs bg-[#fca311]"
-                      href="http://shop.thrd.store/"
-                    >
-                      ENTER & SHOP
-                    </a>
-                  </div>
                 </div>
               </div>
               <div className="p-2">
                 <div className="overflow-hidden card hover:rounded-xl">
                   <img
                     src={slider5}
-                    className="h-40 w-40 card-img rounded-xl"
+                    className="h-44 w-40 card-img rounded-xl"
                     alt=""
                   />
-                  <div className="textContent flex flex-col items-center justify-center">
-                    <p className="spline-font text-xs">Get Yours Now !</p>
-                    <a
-                      className="silk-screen mt-5 mx-0 md:mx-2 rounded-3xl md:rounded-[4em] py-2 md:p-2 px-2 text-xs bg-[#fca311]"
-                      href="http://shop.thrd.store/"
-                    >
-                      ENTER & SHOP
-                    </a>
                   </div>
-                </div>
               </div>
               <div className="p-2">
                 <div className="overflow-hidden card hover:rounded-xl">
                   <img
                     src={slider6}
-                    className="h-40 w-40 card-img rounded-xl"
+                    className="h-44 w-40 card-img rounded-xl"
                     alt=""
                   />
-                  <div className="textContent flex flex-col items-center justify-center">
-                    <p className="spline-font text-xs">Get Yours Now !</p>
-                    <a
-                      className="silk-screen mt-5 mx-0 md:mx-2 rounded-3xl md:rounded-[4em] py-2 md:p-2 px-2 text-xs bg-[#fca311]"
-                      href="http://shop.thrd.store/"
-                    >
-                      ENTER & SHOP
-                    </a>
-                  </div>
                 </div>
               </div>
             </Slider>
