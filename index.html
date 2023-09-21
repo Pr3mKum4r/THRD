@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en" class="bg-black">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>THRD</title>
+  <style>
+    @font-face {
+      font-family: "SplineSans";
+      src: url("./fonts/SplineSansMono-VariableFont_wght.ttf") format('truetype-variations');
+    }
+
+    @font-face {
+      font-family: "SilkScreenBold";
+      src: url("./fonts/Silkscreen-Bold.ttf");
+    }
+
+    @font-face {
+      font-family: "SilkScreen";
+      src: url("./fonts/Silkscreen-Regular.ttf");
+    }
+
+    .spline-font {
+      font-family: "SplineSans";
+    }
+
+    .silk-screen-bold {
+      font-family: "SilkScreenBold";
+    }
+
+    .silk-screen {
+      font-family: "SilkScreen";
+    }
+
+    .banner {
+      font-size: 6px;
+      letter-spacing: 6px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+  <script>
+
+    var end = new Date('10/12/2023 10:1 AM');
+
+    var _second = 1000;
+    var _minute = _second * 60;
+    var _hour = _minute * 60;
+    var _day = _hour * 24;
+    var timer;
+
+    function showRemaining() {
+      var now = new Date();
+      var distance = end - now;
+      if (distance < 0) {
+
+        clearInterval(timer);
+        // document.getElementById('countdown').innerHTML = 'EXPIRED!';
+
+        return;
+      }
+      var days = Math.floor(distance / _day);
+      var hours = Math.floor((distance % _day) / _hour);
+      var minutes = Math.floor((distance % _hour) / _minute);
+      var seconds = Math.floor((distance % _minute) / _second);
+
+      document.getElementById('days').innerHTML = days
+      document.getElementById('hours').innerHTML = hours
+      document.getElementById('minutes').innerHTML = minutes
+      document.getElementById('seconds').innerHTML = seconds
+    }
+
+    window.onload = function () {
+      timer = setInterval(showRemaining, 1000);
+
+    }
+  </script>
+</body>
+
+</html>
